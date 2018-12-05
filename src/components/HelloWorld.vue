@@ -14,15 +14,18 @@
     </ul>
     <h3>Essential Links</h3>
     <v-header></v-header>
+    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
 import headerVue from '@/components/header.vue';
+import footerVue from '@/components/footer.vue';
 export default {
   name: 'HelloWorld',
   components:{
-    'v-header':headerVue
+    'v-header':headerVue,
+    'v-footer':footerVue
   },
   props: {
     msg: String
